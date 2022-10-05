@@ -1,0 +1,23 @@
+package test;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    	Scanner input = new Scanner(System.in);
+        
+        int sum = 0;
+        
+        while(true) {
+        	String test = input.nextLine();
+        	if(test.equals('')) break;
+        	try {
+                sum += Integer.parseInt(input.nextLine());
+            } catch (NumberFormatException e) {
+                e.printStackTrace();
+            }
+        }
+//        String str1 = input.nextLine();
+        System.out.println("Suma numerelor este "+sum);
+    }
+}

@@ -1,0 +1,19 @@
+package test;
+
+public class Parent1 {
+	private int id;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Parent1(int id) {
+		this.id = id;
+	}
+	
+	
+}

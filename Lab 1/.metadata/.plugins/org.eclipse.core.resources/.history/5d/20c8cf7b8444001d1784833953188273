@@ -1,0 +1,19 @@
+package test;
+
+public class Test {
+	@SuppressWarnings("All")
+	private int acc;
+	private String nume;
+	
+	public Test() {
+		this.acc = 0;
+		this.nume = "";
+	}
+	
+	public Test(int acc, String nume) {
+		this.acc = acc;
+		this.nume = nume;
+	}
+	
+	
+}

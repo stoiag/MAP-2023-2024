@@ -1,0 +1,18 @@
+package test;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    	Scanner input = new Scanner(System.in);
+        System.out.println("Hello World!");
+        
+        int option = 0;
+        try {
+            option = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+        }
+        String str1 = input.nextLine();
+    }
+}
